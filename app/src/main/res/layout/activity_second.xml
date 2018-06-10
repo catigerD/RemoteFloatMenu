@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SecondActivity">
+
+    <Button
+        android:id="@+id/btn_bind_remote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bindservice"/>
+
+    <Button
+        android:id="@+id/btn_add_remote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addRemoteView"/>
+
+    <Button
+        android:id="@+id/btn_change_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="changeImage"/>
+
+</LinearLayout>
